@@ -1,0 +1,20 @@
+########################### DATA ###########################
+input_folder: "dataset/ready_for_train/cropped_processed"
+# splits
+train_split: 0.8
+validation_split: 0.2
+#train_split is from other folder, only for test purposes
+image_size: [100, 200]
+
+
+################ FEATURE EXTRACTORS TO TRAIN ###############
+#   - "our_cnn"
+feature_extractor: "our_cnn"
+
+################### feature_extractor_config ###################
+learning_rate: 0.0001
+nr_of_epochs: 50
+batch_size: 64
+
+
+

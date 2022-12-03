@@ -1,0 +1,11 @@
+__pycache__/
+dataset/
+experiments/
+ideas/
+logs/
+outputs/
+temp_test_folder_processed/
+wandb/
+trained_models/feature_extractors/old_our_cnn_trained.h5
+trained_models/classifiers/*
+show_crop.ipynb
